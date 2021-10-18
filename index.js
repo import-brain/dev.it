@@ -1,3 +1,4 @@
+// import apollo, graphQL, mongoose, pull MongoDB connection URL from config file
 const { ApolloServer } = require('apollo-server');
 const graphql = require('graphql-tag');
 const mongoose = require('mongoose');
@@ -9,7 +10,7 @@ const typeDefs = graphql`
         sayHi: String!
     }
 `;
-
+// definitions
 const resolvers = {
     Query: {
         sayHi: () => 'Hello World!'
@@ -20,7 +21,7 @@ const server = new ApolloServer({
     typeDefs,
     resolvers
 });
-
+// MongoDB connection code
 mongoose
     .connect(MONGODB, { useNewUrlParser: true })
     .then(() => {
