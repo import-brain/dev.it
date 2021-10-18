@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/import-brain/dev.it/issues"
   },
-  "homepage": "https://github.com/import-brain/dev.it#readme"
+  "homepage": "https://github.com/import-brain/dev.it#readme",
+  "dependencies": {
+    "apollo-server": "^3.4.0",
+    "graphql": "^15.6.1",
+    "mongoose": "^6.0.11"
+  }
 }
