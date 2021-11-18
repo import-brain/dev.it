@@ -19,7 +19,7 @@
   "homepage": "https://github.com/import-brain/dev.it#readme",
   "dependencies": {
     "apollo-server": "^3.4.0",
-    "graphql": "^15.6.1",
+    "graphql": "^16.0.0",
     "mongoose": "^6.0.11"
   }
 }
